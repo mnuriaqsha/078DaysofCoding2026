@@ -10,12 +10,10 @@ public class Day78 {
         
         String nama;
         String NIM;
-        int i = 1;
         
         do {
-            System.out.print("\n\n== Percobaan ke"+i+" ==");
             
-            System.out.print("\nMasukkan Username: ");
+            System.out.print("\n\nMasukkan Username: ");
             nama = hi.nextLine();
             System.out.print("Masukkan Password: ");
             NIM = hi.nextLine();
@@ -30,10 +28,8 @@ public class Day78 {
                 System.out.println("Akun anda tidak ditemukan ");
             }
             
-            i++;
-        } while (i<=10);
+        } while (true);
         
-        if (i>=10) System.out.println("\nMohon Maaf Coba lagi tahun depan");
-        
+       
     }
 }
